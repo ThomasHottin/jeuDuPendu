@@ -1,0 +1,48 @@
+Regles :
+    Au bout d'un certain nombre d'essaie, la partie est terminée et perdue (message d'erreur et affichage du pendu)
+    Pouvoir proposer un mot
+    Quand une lettre est trouvée, elle s'afficher (si 2 lettres sont identiques dans un mot, elles s'affichent toutes les deux)
+    Quand une lettre est fausse, l'image du pendu change
+    Les lettres trouvées ne sont plus cliquable / utilisable
+    Quand le mot est trouvé, la partie est terminée et gagnée
+
+le contenu de l'html :
+    L'image du pendu
+    Le mot à trouver
+    Historique
+    Avoir un bouton pour proposer un mot
+    Bouton nouvelle partie
+
+le contenu du JS :
+    Faire une BDD sous forme de tableau data
+    A chaque erreur, faire avancer le pendu
+    A lettre trouvée, afficher la lettre
+    A chaque lettre utilisée, la rendre inutilisable et la placé dans l'historique
+    Transformer le mot à trouver en tiret / underscore
+    A chaque lettre trouvée, il va falloir changer le underscore en la lettre trouvée
+    Ecouteur d'évenement keypress / keydown -> Utiliser les lettres du clavier
+    Gérer les conditions de victoire et de défaite (déterminer le nombre de tentative)
+
+
+Ergonomie :
+    Mise en place d'un historique
+    Ne pas autoriser le fait d'appuyer plusieurs fois sur une même lettre
+    Animation en cas de victoire
+    Animation en cas d'échec de tentative (shake)
+    Lorsque l'on clique sur le bouton nouvelle partie, alors la partie en cours est arrêté et une nouvelle se charge sans avoir besoin de rafraichir la page
+
+Exception :
+    Ne pas permettre un mélange de minuscule / majuscule (déterminer si on met quand même la première lettre en majuscule)
+    Autoriser les accents
+    Prendre en compte les apostrophes / tiret
+
+
+Bonus :
+
+    Mettre en place un timer
+
+
+
+
+
+

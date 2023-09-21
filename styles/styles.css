@@ -1,0 +1,47 @@
+body {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  background-color: #8ad0ff;
+}
+
+h1 {
+  color: #333;
+}
+
+.pendu {
+  margin-top: 20px;
+}
+
+.mot-a-deviner {
+  margin-top: 20px;
+  font-size: 24px;
+}
+
+.historique {
+  margin-top: 20px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.saisie {
+  margin-top: 20px;
+}
+
+input[type="text"] {
+  width: 30px;
+  text-align: center;
+  font-size: 24px;
+  margin-right: 10px;
+}
+
+button {
+  font-size: 18px;
+  padding: 5px 10px;
+}
+
+button#nouvelle-partie {
+  margin-top: 20px;
+}

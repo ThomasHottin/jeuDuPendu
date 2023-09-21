@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/styles.css" />
+    <title>Jeu du Pendu</title>
+  </head>
+  <body>
+    <h1>Jeu du Pendu</h1>
+    <div class="pendu">
+      <img src="img/pendu0.png" alt="Pendu" />
+    </div>
+    <div class="mot-a-deviner"></div>
+    <div class="historique">
+      <h2>Historique</h2>
+      <ul></ul>
+    </div>
+    <div class="essais-restants">
+      Essais restants : <span id="essais-restants">7</span>
+    </div>
+    <div class="saisie">
+      <input type="text" id="proposition" maxlength="1" />
+      <button id="proposer">Proposer</button>
+    </div>
+    <button id="nouvelle-partie">Nouvelle Partie</button>
+    <script src="scripts/script.js"></script>
+  </body>
+</html>
